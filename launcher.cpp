@@ -1,7 +1,6 @@
 #include <iostream>
 #include <locale.h>
 using namespace std;
-//Include all the other c++ programs of this directory here
 #include "./moodle_1/holamundo.cpp"
 #include "./moodle_1/nombreyedad.cpp"
 #include "./moodle_1/imc.cpp"
