@@ -42,41 +42,49 @@ int main(){
         cout<<"Escribe el numero del ejercicio que quieres ejecutar o escribe salir para salir: "<<endl;
         cin>>respuesta;
         respuesta=lowerstring(respuesta);
-        cout<<"------------------------------------------------------------"<<endl;
         if(respuesta=="1"){
             cout<<"Se va a ejectuar holamundo"<<endl;
+            cout<<"------------------------------------------------------------"<<endl;
             holamundo();
             cout<<"Se ha ejecutado holamundo"<<endl;
         }else if(respuesta=="2"){
-            cout<<"Se va a ejectuar el ejercicio 0"<<endl;
+            cout<<"Se va a ejectuar el ejercicio 0 nombreyedad"<<endl;
+            cout<<"------------------------------------------------------------"<<endl;
             nombreyedad();
             cout<<"Se ha ejecutado nombreyedad(ejercicio 0)"<<endl;
         }else if(respuesta=="3"){
             cout<<"Se va a ejectuar imc"<<endl;
+            cout<<"------------------------------------------------------------"<<endl;
             imc();
             cout<<"Se ha ejecutado imc"<<endl;
         }else if(respuesta=="4"){
             cout<<"Se va a ejectuar ej1"<<endl;
+            cout<<"------------------------------------------------------------"<<endl;
             ej1();
             cout<<"Se ha ejecutado ej1"<<endl;
         }else if(respuesta=="5"){
             cout<<"Se va a ejectuar ej2"<<endl;
+            cout<<"------------------------------------------------------------"<<endl;
             ej2();
             cout<<"Se ha ejecutado ej2"<<endl;
         }else if(respuesta=="6"){
             cout<<"Se va a ejectuar ej3"<<endl;
+            cout<<"------------------------------------------------------------"<<endl;
             ej3();
             cout<<"Se ha ejecutado ej3"<<endl;
         }else if(respuesta=="7"){
             cout<<"Se va a ejectuar ej4"<<endl;
+            cout<<"------------------------------------------------------------"<<endl;
             ej4();
             cout<<"Se ha ejecutado ej4"<<endl;
         }else if(respuesta=="8"){
             cout<<"Se va a ejectuar ej5"<<endl;
+            cout<<"------------------------------------------------------------"<<endl;
             ej5();
             cout<<"Se ha ejecutado ej5"<<endl;
         }else if(respuesta=="9"){
             cout<<"Se va a ejectuar ej6"<<endl;
+            cout<<"------------------------------------------------------------"<<endl;
             ej6();
             cout<<"Se ha ejecutado ej6"<<endl;
         }else if(respuesta=="salir"){
