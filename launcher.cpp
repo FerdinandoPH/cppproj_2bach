@@ -21,15 +21,15 @@ string lowerstring(string s){
 void ejsDisponibles(){
         cout<<"Estos son los ejercicios disponibles: "<<endl;
         cout<<"------------------------------------------------------------"<<endl;
-        cout<<"1. Hola Mundo"<<endl;
-        cout<<"2. Nombre y edad (ejercicio0)"<<endl;
-        cout<<"3. IMC"<<endl;
-        cout<<"4. Ejercicio 1 de la pagina 116"<<endl;
-        cout<<"5. Ejercicio 2 de la pagina 116"<<endl;
-        cout<<"6. Ejercicio 3 de la pagina 116"<<endl;
-        cout<<"7. Ejercicio 4 de la pagina 116"<<endl;
-        cout<<"8. Ejercicio 5 de la pagina 116"<<endl;
-        cout<<"9. Ejercicio 6 de la pagina 116"<<endl;
+        cout<<"1. Ejericio 1 de la pagina 116"<<endl;
+        cout<<"2. Ejericio 2 de la pagina 116"<<endl;
+        cout<<"3. Ejericio 3 de la pagina 116"<<endl;
+        cout<<"4. Ejericio 4 de la pagina 116"<<endl;
+        cout<<"5. Ejericio 5 de la pagina 116"<<endl;
+        cout<<"6. Ejericio 6 de la pagina 116"<<endl;
+        cout<<"7. Hola Mundo"<<endl;
+        cout<<"8. Ejercicio 0 Nombre y Edad"<<endl;
+        cout<<"9. IMC"<<endl;
         cout<<"------------------------------------------------------------"<<endl;
 }
 int main(){
@@ -43,58 +43,66 @@ int main(){
         cin>>respuesta;
         respuesta=lowerstring(respuesta);
         if(respuesta=="1"){
-            cout<<"Se va a ejectuar holamundo"<<endl;
-            cout<<"------------------------------------------------------------"<<endl;
-            holamundo();
-            cout<<"Se ha ejecutado holamundo"<<endl;
-        }else if(respuesta=="2"){
-            cout<<"Se va a ejectuar el ejercicio 0 nombreyedad"<<endl;
-            cout<<"------------------------------------------------------------"<<endl;
-            nombreyedad();
-            cout<<"Se ha ejecutado nombreyedad(ejercicio 0)"<<endl;
-        }else if(respuesta=="3"){
-            cout<<"Se va a ejectuar imc"<<endl;
-            cout<<"------------------------------------------------------------"<<endl;
-            imc();
-            cout<<"Se ha ejecutado imc"<<endl;
-        }else if(respuesta=="4"){
-            cout<<"Se va a ejectuar ej1"<<endl;
+            cout<<"Ejecutando ejercicio 1 de la pagina 116"<<endl;
             cout<<"------------------------------------------------------------"<<endl;
             ej1();
-            cout<<"Se ha ejecutado ej1"<<endl;
-        }else if(respuesta=="5"){
-            cout<<"Se va a ejectuar ej2"<<endl;
+            cout<<"------------------------------------------------------------"<<endl;
+            cout<<"Se ha ejecutado el ejercicio 1 de la pagina 116"<<endl;
+        }else if(respuesta=="2"){
+            cout<<"Ejecutando ejercicio 2 de la pagina 116"<<endl;
             cout<<"------------------------------------------------------------"<<endl;
             ej2();
-            cout<<"Se ha ejecutado ej2"<<endl;
-        }else if(respuesta=="6"){
-            cout<<"Se va a ejectuar ej3"<<endl;
+            cout<<"------------------------------------------------------------"<<endl;
+            cout<<"Se ha ejecutado el ejercicio 2 de la pagina 116"<<endl;
+        }else if(respuesta=="3"){
+            cout<<"Ejecutando ejercicio 3 de la pagina 116"<<endl;
             cout<<"------------------------------------------------------------"<<endl;
             ej3();
-            cout<<"Se ha ejecutado ej3"<<endl;
-        }else if(respuesta=="7"){
-            cout<<"Se va a ejectuar ej4"<<endl;
+            cout<<"------------------------------------------------------------"<<endl;
+            cout<<"Se ha ejecutado el ejercicio 3 de la pagina 116"<<endl;
+        }else if(respuesta=="4"){
+            cout<<"Ejecutando ejercicio 4 de la pagina 116"<<endl;
             cout<<"------------------------------------------------------------"<<endl;
             ej4();
-            cout<<"Se ha ejecutado ej4"<<endl;
-        }else if(respuesta=="8"){
-            cout<<"Se va a ejectuar ej5"<<endl;
+            cout<<"------------------------------------------------------------"<<endl;
+            cout<<"Se ha ejecutado el ejercicio 4 de la pagina 116"<<endl;
+        }else if(respuesta=="5"){
+            cout<<"Ejecutando ejercicio 5 de la pagina 116"<<endl;
             cout<<"------------------------------------------------------------"<<endl;
             ej5();
-            cout<<"Se ha ejecutado ej5"<<endl;
-        }else if(respuesta=="9"){
-            cout<<"Se va a ejectuar ej6"<<endl;
+            cout<<"------------------------------------------------------------"<<endl;
+            cout<<"Se ha ejecutado el ejercicio 5 de la pagina 116"<<endl;
+        }else if(respuesta=="6"){
+            cout<<"Ejecutando ejercicio 6 de la pagina 116"<<endl;
             cout<<"------------------------------------------------------------"<<endl;
             ej6();
-            cout<<"Se ha ejecutado ej6"<<endl;
-        }else if(respuesta=="salir"){
-            cout<<"Hasta luego!"<<endl;
+            cout<<"------------------------------------------------------------"<<endl;
+            cout<<"Se ha ejecutado el ejercicio 6 de la pagina 116"<<endl;
+        }else if(respuesta=="7"){
+            cout<<"Ejecutando ejercicio Hola Mundo"<<endl;
+            cout<<"------------------------------------------------------------"<<endl;
+            holamundo();
+            cout<<"------------------------------------------------------------"<<endl;
+            cout<<"Se ha ejecutado el ejercicio Hola Mundo"<<endl;
+        }else if(respuesta=="8"){
+            cout<<"Ejecutando ejercicio 0 Nombre y Edad"<<endl;
+            cout<<"------------------------------------------------------------"<<endl;
+            nombreyedad();
+            cout<<"------------------------------------------------------------"<<endl;
+            cout<<"Se ha ejecutado el ejercicio 0 Nombre y Edad"<<endl;
+        }else if(respuesta=="9"){
+            cout<<"Ejecutando ejercicio IMC"<<endl;
+            cout<<"------------------------------------------------------------"<<endl;
+            imc();
+            cout<<"------------------------------------------------------------"<<endl;
+            cout<<"Se ha ejecutado el ejercicio IMC"<<endl;
         }else if(respuesta=="h"){
             ejsDisponibles();
+        }else if(respuesta=="salir"){
+            cout<<"¡Hasta luego!"<<endl;
         }else{
-            cout<<"No se ha encontrado el ejercicio"<<endl;
+            cout<<"No se ha encontrado el ejercicio que has escrito"<<endl;
         }
-        cout<<"------------------------------------------------------------"<<endl;
     }
 
     return 0;
