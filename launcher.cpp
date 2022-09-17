@@ -33,7 +33,7 @@ void ejsDisponibles(){
 }
 int main(){
     setlocale(LC_ALL, "es_ES");
-    cout<<"Bienvenido a los ejercicios de C++ de Fernando Perez Holguin (2ºN)"<<endl;
+    cout<<"Bienvenido a los ejercicios de C++ de Fernando Pérez Holguín (2ºN)"<<endl;
     string respuesta="";
     ejsDisponibles();
     while(respuesta!="salir"&&respuesta!="exit"){
