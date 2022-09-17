@@ -39,7 +39,7 @@ int main(){
     ejsDisponibles();
     while(respuesta!="salir"&&respuesta!="exit"){
         cout<<"Esrcibe h si quieres ver la lista de ejercicios de nuevo"<<endl;
-        cout<<"Escribe el numero del ejercicio que quieres ejecutar o escribe salir para salir: "<<endl;
+        cout<<"Escribe el numero del ejercicio (1-9) que quieres ejecutar o escribe salir para salir: "<<endl;
         cin>>respuesta;
         respuesta=lowerstring(respuesta);
         if(respuesta=="1"){
