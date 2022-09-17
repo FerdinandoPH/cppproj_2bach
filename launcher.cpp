@@ -37,7 +37,7 @@ int main(){
     cout<<"Bienvenido a los ejercicios de C++ de Fernando Perez Holguin (2ºN)"<<endl;
     string respuesta="";
     ejsDisponibles();
-    while(respuesta!="salir"||respuesta!="exit"){
+    while(respuesta!="salir"&&respuesta!="exit"){
         cout<<"Esrcibe h si quieres ver la lista de ejercicios de nuevo"<<endl;
         cout<<"Escribe el numero del ejercicio que quieres ejecutar o escribe salir para salir: "<<endl;
         cin>>respuesta;
