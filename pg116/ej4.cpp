@@ -10,7 +10,7 @@ bool esUnNumero(string cadena){
     }
     return true;
 }
-int main(){
+int ej4(){
     setlocale(LC_ALL, "es_ES");
     double n=0,t=0;
     int c=0;

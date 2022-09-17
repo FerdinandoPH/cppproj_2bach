@@ -1,7 +1,7 @@
 #include <iostream>
 #include <locale.h>
 using namespace std;
-int main(){
+int nombreyedad(){
     setlocale(LC_ALL, "es_ES");
     int edad=0;
     string nombre;

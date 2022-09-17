@@ -2,7 +2,7 @@
 #include <locale.h>
 using namespace std;
 #include<cmath>
-int main(){
+int ej3(){
     setlocale(LC_ALL, "es_ES");
     double km,mi=0;
     int op=0;

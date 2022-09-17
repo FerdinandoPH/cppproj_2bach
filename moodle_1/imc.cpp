@@ -2,7 +2,7 @@
 #include <locale.h>
 using namespace std;
 
-int main(){
+int imc(){
     setlocale(LC_ALL, "es_ES");
     float altura,peso,imc=0;
     string nombre;

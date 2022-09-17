@@ -2,7 +2,7 @@
 #include <locale.h>
 using namespace std;
 #include<cmath>
-int main(){
+int ej6(){
     setlocale(LC_ALL, "es_ES");
     double e,r;
     int n;
@@ -15,6 +15,6 @@ int main(){
     cin>>r;
     cout<<"Introduce los periodos de tiempo: ";
     cin>>n;
-    cout<<"El interés compuesto es: "<<e*pow((1+r/100),n);
+    cout<<"El interés compuesto es: "<<e*pow((1+r/100),n)<<endl;
     return 0;
 }

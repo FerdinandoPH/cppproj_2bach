@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-int main(){
+int holamundo(){
     cout<<"Hola Mundo"<<endl;
     return 0;
 }
