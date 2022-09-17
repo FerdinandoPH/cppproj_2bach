@@ -37,7 +37,7 @@ int main(){
     cout<<"Bienvenido a los ejercicios de C++ de Fernando Perez Holguin (2ºN)"<<endl;
     string respuesta="";
     ejsDisponibles();
-    while(respuesta!="salir"){
+    while(respuesta!="salir"||respuesta!="exit"){
         cout<<"Esrcibe h si quieres ver la lista de ejercicios de nuevo"<<endl;
         cout<<"Escribe el numero del ejercicio que quieres ejecutar o escribe salir para salir: "<<endl;
         cin>>respuesta;
@@ -98,7 +98,7 @@ int main(){
             cout<<"Se ha ejecutado el ejercicio IMC"<<endl;
         }else if(respuesta=="h"){
             ejsDisponibles();
-        }else if(respuesta=="salir"){
+        }else if(respuesta=="salir"||respuesta=="exit"){
             cout<<"¡Hasta luego!"<<endl;
         }else{
             cout<<"No se ha encontrado el ejercicio que has escrito"<<endl;
