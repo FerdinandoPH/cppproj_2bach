@@ -24,6 +24,9 @@ int ej5(){
         cout<<"El coseno de "<<angulosdemo[i]<<"º es "<<cosg(angulosdemo[i])<<endl;
         cout<<"La tangente de "<<angulosdemo[i]<<"º es "<<tang(angulosdemo[i])<<endl;
     }
+    cout<<"El seno de "<<angulosdemo[3]<<"º es "<<sing(angulosdemo[3])<<endl;
+    cout<<"El coseno de "<<angulosdemo[3]<<"º es 0"<<endl;
+    cout<<"La tangente de "<<angulosdemo[3]<<"º es indefinida"<<endl;
     cout<<"Y ahora, demostraré cuatro identidades trigonométricas: "<<endl;
     double a1,a2=0;
     cout<<"Dime un ángulo (en grados)\n ";
