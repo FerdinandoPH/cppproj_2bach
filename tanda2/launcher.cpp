@@ -63,6 +63,7 @@ int main(){
     cout<<"Bienvenido a los ejercicios de C++ de Fernando Pérez Holguín (tanda 2)"<<endl;
     int subindice=0;
     string input="";
+    string nums="123";
     while(input!="salir"&&input!="exit"){
         DisplayEjs(subindice);
         if(subindice==0)
@@ -74,7 +75,7 @@ int main(){
         if(input=="salir"||input=="exit")
             break;
         if(subindice==0){
-            if(stoi(input)>=1&&stoi(input)<=3)
+            if(nums.find(input) != string::npos&&stoi(input)>=1&&stoi(input)<=3)
                 subindice=stoi(input);
             else
                 cout<<"El número tiene que ser del 1 al 3"<<endl;
