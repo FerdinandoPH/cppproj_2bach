@@ -1,9 +1,7 @@
 #include <iostream>
-#include <locale.h>
 using namespace std;
 
 int pg118ej1(){
-    setlocale(LC_ALL, "es_ES");
     int n;
     cout<<"Este programa te dirá si el número que metas es par o impar"<<endl;
     cout << "Introduce un número: ";

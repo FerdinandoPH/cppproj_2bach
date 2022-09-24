@@ -1,9 +1,7 @@
 #include <iostream>
-#include <locale.h>
 using namespace std;
 
 int pg124ej3(){
-    setlocale(LC_ALL, "es_ES");
     int n,r=0;
     cout<<"Este programa te calculará la suma de todos los números positivos que metas"<<endl;
     do{

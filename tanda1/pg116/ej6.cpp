@@ -1,9 +1,7 @@
 #include <iostream>
-#include <locale.h>
 using namespace std;
 #include<cmath>
 int ej6(){
-    setlocale(LC_ALL, "es_ES");
     double e,r;
     int n;
     cout<<"Bienvenido al programa calculador del interes compuesto"<<endl;

@@ -1,9 +1,7 @@
 #include <iostream>
-#include <locale.h>
 using namespace std;
 
 int pg124ej1(){
-    setlocale(LC_ALL, "es_ES");
     int c=7890;
     int r=0;
     cout<<"Autenticación de usuario"<<endl;

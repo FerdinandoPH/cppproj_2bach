@@ -1,9 +1,7 @@
 #include <iostream>
-#include <locale.h>
 using namespace std;
 
 int pg120ej2(){
-    setlocale(LC_ALL, "es_ES");
     int a,b,c,mayor;
     cout<<"Este programa te dirá cual de los tres números que metas es mayor"<<endl;
     cout << "Introduce un número: ";

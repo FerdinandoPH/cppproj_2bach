@@ -1,9 +1,7 @@
 #include <iostream>
-#include <locale.h>
 using namespace std;
 
 int pg124ej4(){
-    setlocale(LC_ALL, "es_ES");
     int c=7890;
     int u=1024;
     int ru,rc=0;

@@ -1,9 +1,7 @@
 #include <iostream>
-#include <locale.h>
 using namespace std;
 
 int pg120ej5(){
-    setlocale(LC_ALL, "es_ES");
     int n;
     cout<<"Este programa te dirá la nota correspondiente al número que metas"<<endl;
     cout << "Introduce un número: ";

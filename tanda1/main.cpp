@@ -1,5 +1,4 @@
 #include <iostream>
-#include <locale.h>
 using namespace std;
 #include "./moodle_1/holamundo.cpp"
 #include "./moodle_1/nombreyedad.cpp"
@@ -32,7 +31,6 @@ void ejsDisponibles(){
         cout<<"------------------------------------------------------------"<<endl;
 }
 int main(){
-    setlocale(LC_ALL, "es_ES");
     cout<<"Bienvenido a los ejercicios de C++ de Fernando Pérez Holguín (2ºN)"<<endl;
     string respuesta="";
     ejsDisponibles();

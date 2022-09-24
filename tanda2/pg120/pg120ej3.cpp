@@ -1,9 +1,7 @@
 #include <iostream>
-#include <locale.h>
 using namespace std;
 
 int pg120ej3(){
-    setlocale(LC_ALL, "es_ES");
     int n;
     cout<<"Este programa te dirá si el número que metas (del 1 al 10) es múltiplo de 3"<<endl;
     cout << "Introduce un número (del 1 al 10): ";

@@ -1,9 +1,7 @@
 #include <iostream>
-#include <locale.h>
 using namespace std;
 
 int pg120ej1(){
-    setlocale(LC_ALL, "es_ES");
     int a,b;
     cout<<"Este programa te dirá si los números que metas son positivos"<<endl;
     cout << "Introduce un número: ";

@@ -1,9 +1,7 @@
 #include <iostream>
-#include <locale.h>
 using namespace std;
 #include<cmath>
 int ej3(){
-    setlocale(LC_ALL, "es_ES");
     double km,mi=0;
     int op=0;
     cout<<"Introduce una opción:\n1. Convertir de km a millas\n2. Convertir de millas a km\n ";

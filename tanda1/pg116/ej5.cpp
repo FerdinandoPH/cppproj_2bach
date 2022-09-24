@@ -1,5 +1,4 @@
 #include <iostream>
-#include <locale.h>
 using namespace std;
 #include <cmath>
 double sing(double x)
@@ -15,7 +14,6 @@ double tang(double x)
     return tan(x*3.14159265358979323846/180);
 }
 int ej5(){
-    setlocale(LC_ALL, "es_ES");
     double angulosdemo[4] = {30,45,60,90};
     cout<<"Bienvenido al programa trigonométrico"<<endl;
     cout<<"Estas son las razones trigonométricas de cuatro ángulos comunes: "<<endl;

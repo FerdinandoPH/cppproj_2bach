@@ -1,5 +1,4 @@
 #include <iostream>
-#include <locale.h>
 #include<string>
 using namespace std;
 bool esUnNumero(string cadena){
@@ -11,7 +10,6 @@ bool esUnNumero(string cadena){
     return true;
 }
 int ej4(){
-    setlocale(LC_ALL, "es_ES");
     double n=0,t=0;
     int c=0;
     string a="hola";

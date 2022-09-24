@@ -13,7 +13,6 @@
 #include "./pg124/pg124ej4.cpp"
 #include "./pg124/pg124ej5.cpp"
 #include <iostream>
-#include <locale.h>
 #include <string>
 using namespace std;
 string lowerstring(string s){
@@ -59,7 +58,6 @@ void DisplayEjs(int subindice){
     }
 }
 int main(){
-    setlocale(LC_ALL, "es_ES");
     cout<<"Bienvenido a los ejercicios de C++ de Fernando Pérez Holguín (tanda 2)"<<endl;
     int subindice=0;
     string input="";

@@ -1,11 +1,9 @@
 #include <iostream>
-#include <locale.h>
 #include <stdlib.h>
 #include <ctime>
 using namespace std;
 
 int pg124ej5(){
-    setlocale(LC_ALL, "es_ES");
     srand((unsigned) time(0));
     int n = rand() % 100 + 1;
     int r=0;
