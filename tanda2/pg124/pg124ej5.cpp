@@ -29,7 +29,7 @@ int pg124ej5(){
             cout<<"Has acertado :D"<<endl;
         }
     }
-    if(v==0){
+    if(v<=0){
         cout<<"Has perdido :("<<endl;
         cout<<"El número era "<<n<<endl;
     }
