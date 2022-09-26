@@ -1,5 +1,4 @@
 #include <iostream>
-using namespace std;
 #include "./moodle_1/holamundo.cpp"
 #include "./moodle_1/nombreyedad.cpp"
 #include "./moodle_1/imc.cpp"
@@ -9,6 +8,7 @@ using namespace std;
 #include "./pg116/ej4.cpp"
 #include "./pg116/ej5.cpp"
 #include "./pg116/ej6.cpp"
+using namespace std;
 string lowerstring(string s){
     string r="";
     for(int i=0;i<s.length();i++){
