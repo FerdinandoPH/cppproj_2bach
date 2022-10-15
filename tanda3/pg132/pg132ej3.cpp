@@ -16,9 +16,14 @@ int pg132ej3(){
     while(!f.eof()){
         getline(f,linea);
         if(!f.eof()){
+            try{
             n=stoi(linea);
             cout<<n<<"+";
             suma+=n;
+            }catch(...){
+                cout<<"Error. ¿Has ejecutado el ejercicio 1 de la página 132 primero?"<<endl;
+                return 0;
+            }
         }
     }
     cout<<"="<<suma<<endl;
