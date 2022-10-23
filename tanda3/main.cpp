@@ -9,6 +9,7 @@
 #include "./pg128/pg128ej8.cpp"
 #include "./pg128/pg128ej9.cpp"
 #include "./pg128/pg128ej10.cpp"
+#include "./pg128/pg128ej11.cpp"
 #include "./pg132/pg132ej1.cpp"
 #include "./pg132/pg132ej3.cpp"
 #include "./pg135/pg135ej1.cpp"
@@ -48,6 +49,7 @@ void DisplayEjs(int indice){
             cout<<"8. Ejercicio 8"<<endl;
             cout<<"9. Ejercicio 9"<<endl;
             cout<<"10. Ejercicio 10"<<endl;
+            cout<<"11. Ejercicio 11"<<endl;
             break;
         case 2:
             cout<<"Ejercicios de la página 132:"<<endl;
@@ -78,7 +80,7 @@ int main(){
     int subindice=0;
     string input="";
     string nums="12345";
-    string nums2="12345678910";
+    string nums2="1234567891011";
     while(input!="salir"&&input!="exit"){
         DisplayEjs(subindice);
         if(subindice==0)
@@ -97,7 +99,7 @@ int main(){
         }
         else{
             int ej=0;
-            if(nums2.find(input) != string::npos&&stoi(input)>=0&&stoi(input)<=10)
+            if(nums2.find(input) != string::npos&&stoi(input)>=0&&stoi(input)<=11)
                 ej=stoi(input);
             else
                 cout<<"Error"<<endl;
@@ -291,6 +293,20 @@ int main(){
                             cout<<"Se va a ejecutar el ejercicio 10 de la página 128"<<endl;
                             cout<<"------------------------------------------"<<endl;
                             pg128ej10();
+                            cout<<"------------------------------------------"<<endl;
+                            cout<<"El ejercicio ha finalizado su ejecución"<<endl;
+                            break;
+                        default:
+                            cout<<"Error de subíndice"<<endl;
+                            break;
+                    }
+                    break;
+                case 11:
+                    switch(subindice){
+                        case 1:
+                            cout<<"Se va a ejecutar el ejercicio 11 de la página 128"<<endl;
+                            cout<<"------------------------------------------"<<endl;
+                            pg128ej11();
                             cout<<"------------------------------------------"<<endl;
                             cout<<"El ejercicio ha finalizado su ejecución"<<endl;
                             break;
