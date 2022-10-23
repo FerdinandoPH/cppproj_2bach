@@ -12,7 +12,7 @@ Dime un número: crearé un triángulo de * cuya primera fila tendrá tantos * c
 Te he creado un archivo llamado triangulo.txt con el triángulo que me has pedido
 */
 
-int main(){
+int ej8(){
     int n=0;
     cout<<"Dime un número: crearé un triángulo de * cuya primera fila tendrá tantos * como el número que me des (y luego irá bajando)"<<endl;
     cin>>n;
